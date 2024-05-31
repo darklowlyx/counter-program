@@ -1,0 +1,53 @@
+@import "nullstyle.css";
+
+* {
+	background-color: #000;
+	color: #ffdf00;
+	font-size: 24px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+}
+
+.lite-button {
+	border: 0.125rem solid #ffdf00;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 0.625rem 1.5625rem;
+	border-radius: 0.3125rem;
+	transition-duration: 0.15s;
+	margin-bottom: 20px;
+}
+.lite-button:hover {
+	background-color: #ffdf00;
+	color: #000;
+}
+input[type="checkbox"] {
+	/* display: none; */
+	accent-color: #ffdf00;
+	height: 20px;
+	width: 20px;
+}
+input[type="radio"] {
+	/* display: none; */
+	accent-color: #ffdf00;
+	height: 20px;
+	width: 20px;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#countLabel {
+	display: block;
+	margin-bottom: 2.5rem;
+	font-size: 3.375rem;
+}
+#btnContainer {
+	display: inline-flex;
+	gap: 1.25rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
